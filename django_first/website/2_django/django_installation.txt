@@ -1,0 +1,16 @@
+# Django installation
+pip install django
+
+
+## create virtual environment
+python -m venv myapp
+
+## go inside Venv
+myapp\Scripts\activate.bat
+
+## install in virtual environment
+pip install django
+
+### create a new project in virtual env
+django-admin startproject myproject
+

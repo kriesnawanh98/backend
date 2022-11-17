@@ -1,0 +1,85 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: tomato;
+    /* height sama kaya devicenya */
+
+}
+
+.container {}
+
+/* div {
+    background-color: blue;
+} */
+
+.container-navbar {
+    background-color: #333;
+    width: 100%;
+    /* height: 100px; */
+    height: 10vh;
+}
+
+.ul-navbar {
+    /* background-color: green; */
+    /* width: 500px; */
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    /* border: 1px solid black;
+    background-color: black; */
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+
+}
+
+.li-navbar:hover {
+    background-color: tomato;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+
+.container-content {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.img {
+    width: 30%;
+    height: 30%;
+    background-color: black;
+}
+
+.container-footer {
+    background-color: crimson;
+    /* untuk buat ke tengah */
+    display: flex;
+    un justify-content: center;
+    align-items: center;
+    /* untuk buat ke tengah */
+    height: 10vh;
+}
+
+.h1-footer {
+    font-size: 40px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}

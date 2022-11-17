@@ -1,0 +1,5 @@
+1. Create first APP
+python manage.py startapp myapp
+
+2. running server/website
+python manage.py runserver
